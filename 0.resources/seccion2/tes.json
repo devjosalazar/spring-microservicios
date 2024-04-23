@@ -1,0 +1,21 @@
+{"broadcastingId":"660ebd9e42719d204c179076","startDate":"2024-04-04T14:48:55.682+00:00","status":"DONE","eventType":"BROADCAST"}
+
+
+{"broadcastingId":"662194c16c19453d5bbf69fe","actionType":"START_PLAYER"}
+
+
+{
+  "type": "startingPlayer",
+  "content": {
+    "id": null,
+    "count": null,
+    "createdAt": null,
+    "broadcastingId": "662194c16c19453d5bbf69fe",
+    "connectionId": null,
+    "endedAt": null,
+    "actionType": "START_PLAYER"
+  }
+}
+
+https://prodfiraliveorigin.blob.core.windows.net/prodfiraliveorigin/live/6388ee76e9e1eb155dc386c6/6388ee76e9e1eb155dc386c6_1/6388ee76e9e1eb155dc386c6_1.m3u8
+https://prodfiraliveorigin.blob.core.windows.net/prodfiraliveorigin/live/6388ee76e9e1eb155dc386c6/6388ee76e9e1eb155dc386c6_1/6388ee76e9e1eb155dc386c6_1.m3u8

@@ -1,0 +1,18 @@
+{
+    "webConnections": 10,
+    "mobileConnections": 1,
+    "likes": 26,
+    "shares": 7,
+    "shoppingCarts": 0,
+    "regularIntentionClicks": 13,
+    "regularClicks": 4,
+    "popupIntentionClicks": 6,
+    "popupClicks": 2,
+    "clickAverage": 0.5454545454545454,
+    "averageConnectionTime": 4.4281150159744405,
+    "allConnectionTime": 55.44,
+    "bouncingRate": 0,
+    "engagementRate": 636.3636363636364,
+    "eventDuration": 12.52,
+    "chatMessageCounting": 31
+  }
