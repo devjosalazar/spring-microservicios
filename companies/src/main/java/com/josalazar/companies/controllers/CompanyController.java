@@ -3,6 +3,7 @@ package com.josalazar.companies.controllers;
 import com.josalazar.companies.model.Company;
 import com.josalazar.companies.services.CompanyControllerService;
 import com.josalazar.companies.services.CompanyService;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
@@ -15,6 +16,7 @@ import java.net.URI;
 @AllArgsConstructor
 @RequestMapping(path = "company")
 @Slf4j
+@Tag(name = "Companies resource")
 public class CompanyController implements CompanyControllerService {
 
     private final CompanyService service;
