@@ -1,0 +1,5 @@
+al ejeecutar el siguente comando te pedira ingresar el nombre del archivo el cual sera microservices-configsy un password, el password debe tener mas de 5 caracteres y deberas guardarlo ya que lo usaremos mas adelante
+ssh-keygen -t ecdsa -b 256 -m PEM
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/microservices-configs
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
