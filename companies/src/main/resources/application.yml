@@ -2,20 +2,24 @@ spring:
   application:
     name: companies-crud
   datasource:
-    username: debuggeandoideas
+    username: ${db.username}
     hikari:
-      maximum-pool-size: 5
-      connection-timeout: 20000
-    url: jdbc:postgresql://localhost:5432/companies
-    password: udemy
+      maximum-pool-size: ${db.maximum-pool-size}
+      connection-timeout: ${db.connection-timeout}
+    url: ${db.url}
+    password: ${db.password}
+  profiles:
+    default: default
+  config:
+    import: "optional:configserver:http://localhost:7777"
   cloud:
     config:
-      enabled: false
+      enabled: true
 
 server:
   servlet:
     context-path: /companies-crud
-  port: 0
+  port: 8081
 logging:
   level:
     org:
